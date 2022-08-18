@@ -1,4 +1,169 @@
 body {
-    background-color: №4374;
-    color: №УГУГУГ;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F7FA;
+}
+/* main styles */
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+   
+}
+.main-content {
+background-color: FFFFFF;
+background: #FFFFFF;
+box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+padding: 105px 90px;
+}
+/* about styles */
+.about{
+    background-color:FFFFF;
+    font-size: 15px;
+    margin-bottom: 40px;
+     
+}
+/* Project styles */
+.ol{
+
+}
+.projects {
+}
+.li1 {
+    color:#595959;
+    ;
+}
+.project_tittle {
+    
+}
+/* work styles */
+.work {
+    background-color:FFFFFF;
+
+    /* padding: 100px 40px 50px 20px */
+}
+.Education {
+    background-color: FFFFFF;
+}
+
+/* sidebar styles */
+.sidebar {
+    background-color: #1E2939;
+    margin: 0px 0px 0px 50px;
+    padding-top: 40px;
+    width: 370px;
+}
+.photo {
+    width: 370px;
+    margin-bottom: 50px;
+}
+.sidebar-tittle {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 27px;
+      margin-bottom: 10px;
+}
+.contact-type {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-right: 5px;
+}
+.contact-link {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.5;
+
+}
+.contact {
+    margin: 15px 30px;
+    color:#FFFFFF;
+}
+.Tech {
+    padding: 15px 30px;
+    color:#FFFFFF;
+    content:"\2022";   
+}
+.Tech-two {
+    color:#FFFFFF;
+    padding: 0px;
+    margin-left: 60px;
+}
+.dott {
+    color:#FB6D3A;
+}
+.dot {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.Soft-two
+{
+    margin: 15px 12px;
+    color:#FFFFFF;
+}
+.soft {
+    padding: 15px 20px;
+    color:#FFFFFF;
+}
+.soft-w{
+    color:#FB6D3A;
+}
+.soft-r {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.ab-pos {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;  
+    color: #000000;
+    margin-bottom: 20px;
+}
+.ab-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;  
+    color: #763636;  
+    margin-bottom: 25px;
+}
+.ab-dis {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 400px;
+}
+.tittle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+.pr-it {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+
 }
