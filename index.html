@@ -4,125 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Resume</title>
+    <title>BarberShop</title>
 </head>
 <body>
-   <!--Main-->
-   <div class="main">
-    <!--Main Contnent-->
-    <div class="main-content">
-        <!--About user-->
-        <div class="about">
-            <h2 class="ab-pos">Front-End Developer</h2>
-            <h1 class="ab-name">Maslov Bohdan</h1>
+    <header>
+        <img src="images/Logo.svg" alt="batbershop logo">
+        <nav>
+          <ul>
+            <li><a href="">About</a></li>
+            <li><a href="">Service and prices</a></li> 
+            <li><a href="">Barbers</a></li>
+            <li><a href="">Contacts</a></li>
+          </ul>
+        </nav>
+          <a href="tell:+380441111111">+38 044 111 11 11</a>
+          <button type="button">Online-booking</button>
+    </header>
+    <main>
+        <!--Hero-->
+        <section>
+            <ul>
+                <li><a href="">Youtube</a></li>
+                <li><a href="">Instagram</a></li>
+            </ul>
+            <p>A hair salon for men in Kyiv</p>
+                <h1>BarberShop</h1>
+                <p>We are experts in trendy men’s haircuts.
+                    We work quickly, carefully and with style.</p>
+        </section>
+        <!--About-->
+        <section>
+            <ul>
+                <li><img src="images/abou1.jpg" alt="Пример работы" width="270"></li>
+                <li><img src="images/about2.jpg" alt="Прмер работы" width="270"></li>
+            </ul>
+            <p>About</p>
+            <h2>Best Barbershop in your city</h2>
+            <p>If you want to add more confidence to your image, you should definitely visit us.</p>
+            <p>We are a team that never stops at what has been achieved and are thirsty for changes. And when you fall into the hands of our master, you will never be the same again. We are a team that is always "on the same wave" with clients. Therefore, we are always ready to improve everyone who comes to us!</p>
+            <button type="button">ONLINE-BOOKING</button>
+        </section>
+    </main>
+    <footer>
 
-            <p class="ab-dis">Hello! I'm 21, I live in the city of Kyiv, most of the time I worked as a sales manager, but I realized for myself that I want to create something of my own and so I started looking for what is right for me and that's what I'm burning for is Frontend</p>                    
-        </div>
-        <!--Projects-->
-        <div class="projects">
-            <h3 class="tittle">Projects</h3>
-            <ol class="ol">
-              <li class="pr-it">
-                <a href="https://hellenglish.goit.global/">https://hellenglish.goit.global/</a>
-                ........... <b>[</b>HTML5, CSS3<b>]</b>
-              </li>
-              <li class="pr-it">
-                <a href="https://cryptohub.goit.global/">https://cryptohub.goit.global/</a>
-                ............. <b>[</b>JavaScript<b>]</b>
-              </li>
-              <li class="pr-it">
-                <a href="https://kidslike.goit.global/">https://kidslike.goit.global/</a>
-                ................... <b>[</b>React.js, Node.js<b>]</b>
-              </li>
-            </ol>
-        </div>
-        <!--Work-->
-        <div class="work">
-            <h3 class="tittle">Work Experience</h3>
-            <!--Company 1-->
-            <div>
-                <h4>Front-End Developer Freelance</h4>
-                <h5>September 2019 - up to now   |   Country</h5>
-                <ul>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                    <li>Risus commodo viverra maecenas. </li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. </li>
-                </ul>
-            </div>
-            <!--Company 2-->
-            <div><h4>Manager Roga & Kopyta New</h4>
-                <h5>March 2015 - October 2018   |   Country</h5>
-                <ul>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                    <li>Risus commodo viverra maecenas. </li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. </li>
-                </ul> </div>
-            <!--Company 3 -->
-            <div>
-                <h4>Manager Roga & Kopyta LLC </h4>
-                <h5>June 2014 - February 2015   |   Country</h5>
-                <ul>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                    <li>Risus commodo viverra maecenas. </li>
-                </ul>
-            </div>
-        </div>
-        <!--Education-->
-        <div class="Education">
-            <h3 class="tittle">Education</h3>
-            <h4>National University of Radioelectronics</h4>
-            <h5>Menegmnet</h5>
-            <h6>September 2009 - June 2014   |   Country</h6>
-        </div>
-    </div>
-    <!--Sidebar-->
-    <asside class="sidebar">
-        <img class="photo" src="Img/photo_2022-07-31_03-24-47.jpg"User photo">
-        <!--Contacts-->
-        <div class="contact">
-            <h3 class="sidebar-tittle">Contacts</h3>
-            <div>
-                <p>
-                    <span class="contact-type">C:</span>
-                    <a  href="Tell: +380 99 781 98 34" class="contact-link">+380 99 781 98 34</a>
-                </p>
-                <p>
-                    <span class="contact-type">E:</span>
-                
-                    <a  href="Mailto:bmaslov83@gmail.com" class="contact-link">bmaslov83@gmail.com</a></p>
-            </div>
-        </div>
-        <!--tech skills-->
-        <div>
-            <h3 class="Tech"> Tech skills</h3>
-            <ul class="Tech-two">
-                <li class="dott"><spam class="dot">HTML5</spam></li>
-                <li class="dott"><spam class="dot">CSS3</spam></li>
-                <li class="dott"><spam class="dot">GIT</spam></li>
-                <li class="dott"><spam class="dot">WebPack</spam></li>
-                <li class="dott"><spam class="dot">JavaScript</spam></li>
-                <li class="dott"><spam class="dot">React.js</spam></li>
-                <li class="dott"><spam class="dot">Node.js</spam></li>
-            </ul>
-        </div>
-        <!-- Soft Skills-->
-        <div class="soft">
-            <h3 class="Soft-two"> Soft skills</h3>
-            <ul class="soft-q">
-                <li class="soft-w"><span class="soft-r">Scrum</span></li>
-                <li class="soft-w"><span class="soft-r">Agile</span></li>
-                <li class="soft-w"><span class="soft-r">GTD</span></li>
-                <li class="soft-w"><span class="soft-r">Teamwork</span></li>
-            </ul>
-        </div>
-    </asside>
-   </div>
+    </footer>
 </body>
 </html>
